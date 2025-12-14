@@ -32,8 +32,9 @@ build/
 ### VS Code ###
 .vscode/
 
-### Environment ###
+### Environment & Secrets ###
 .env
+src/main/resources/application.properties
 
 ### Documents ###
 *.pdf
