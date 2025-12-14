@@ -1,6 +1,9 @@
 HELP.md
 target/
-.mvn/wrapper/maven-wrapper.jar
+.mvn/
+mvnw
+mvnw.cmd
+.gitattributes
 !**/src/main/**/target/
 !**/src/test/**/target/
 
@@ -34,7 +37,9 @@ build/
 
 ### Environment & Secrets ###
 .env
+.env.example
 src/main/resources/application.properties
+src/main/resources/application.properties.example
 
 ### Documents ###
 *.pdf
