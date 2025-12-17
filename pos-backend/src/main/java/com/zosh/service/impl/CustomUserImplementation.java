@@ -1,7 +1,7 @@
 package com.zosh.service.impl;
 
-import app.posify.modal.User;
-import app.posify.repository.UserRepository;
+import com.zosh.modal.User;
+import com.zosh.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
